@@ -15,9 +15,9 @@ El usuario puede seleccionar el tipo de filtro mediante un menú interactivo y v
 
 src/
 ├── entities/
-│      └── Vuelo.java
+│ └── Vuelo.java
 ├── utils/
-│      └── FiltroVuelos.java
+│ └── FiltroVuelos.java
 └── Main.java
 - entities/ → Contiene la clase Vuelo.
 - utils/ → Contiene la clase FiltroVuelos con la lógica principal de filtrado.
