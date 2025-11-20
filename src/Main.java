@@ -85,7 +85,7 @@ public class Main {
                 }
                 case 5 -> {
                     System.out.println("-----------------------------");
-                    System.out.println("Todos los vuelos disponibles: ");
+                    System.out.println(AZUL + "Todos los vuelos disponibles: " + RESETAZUL);
                     System.out.println("-----------------------------");
                     vuelos.forEach(System.out::println);
                     continue;
