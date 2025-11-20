@@ -13,15 +13,14 @@ El usuario puede seleccionar el tipo de filtro mediante un menú interactivo y v
 
 📂 Estructura del Proyecto
 
+```
 src/
-├── entities/
-│ └── Vuelo.java
-├── utils/
-│ └── FiltroVuelos.java
-└── Main.java
-- entities/ → Contiene la clase Vuelo.
-- utils/ → Contiene la clase FiltroVuelos con la lógica principal de filtrado.
-- Main.java → Ejecuta la aplicación, define las fechas de prueba, crea la lista de vuelos y muestra el menú interactivo.
+ ├── entities/
+ │    └── Vuelo.java
+ ├── utils/
+ │    └── FiltroVuelos.java
+ └── Main.java
+```
 
 
 ---
@@ -92,6 +91,7 @@ El comportamiento depende de qué fechas se envíen:
 
 📜 Ejemplo de Ejecución
 
+```
 ======= RESULTADO =======
 ✈️ Vuelo #7
 ────────────────────────────
@@ -101,10 +101,7 @@ El comportamiento depende de qué fechas se envíen:
 🎯 Destino: Atenas
 📅 Fecha salida: 2025-11-30
 📅 Fecha llegada: 2025-11-30
-
-Si no hay resultados:
-
-⚠️ No hay vuelos para los criterios seleccionados.
+```
 
 
 ---
